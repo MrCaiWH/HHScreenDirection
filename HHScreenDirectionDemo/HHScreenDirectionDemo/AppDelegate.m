@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "ViewController.h"
 
 @interface AppDelegate ()
 
@@ -16,7 +17,17 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    
+    // 1.创建window
+    self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+    self.window.backgroundColor = [UIColor whiteColor];
+    // 2.显示window
+    [self.window makeKeyAndVisible];
+    
+    // 3.显示默认界面
+    ViewController *mainVC = [[ViewController alloc] init];
+    self.window.rootViewController = mainVC;
+
     return YES;
 }
 

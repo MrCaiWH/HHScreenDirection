@@ -1,0 +1,17 @@
+//
+//  PrefixHeader.pch
+//  HHScreenDirectionDemo
+//
+//  Created by zero on 2017/3/16.
+//  Copyright © 2017年 Zerotech. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+//限定以下引用只能被OC代码使用
+#ifdef __OBJC__
+    #import "HHConstant.h"
+#endif
+
+#endif /* PrefixHeader_pch */

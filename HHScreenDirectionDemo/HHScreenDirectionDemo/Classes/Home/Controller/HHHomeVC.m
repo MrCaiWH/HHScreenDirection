@@ -22,6 +22,10 @@
 }
 
 - (IBAction)landscapeClick:(UIButton *)sender {
+    
+    AppDelegate *appDelegate=(AppDelegate *)[[UIApplication sharedApplication] delegate];
+    [appDelegate forceOrientationLandscape];
+    
     HHFirstVC *firstVc = [[HHFirstVC alloc] init];
     [self.navigationController pushViewController:firstVc animated:YES];
 }

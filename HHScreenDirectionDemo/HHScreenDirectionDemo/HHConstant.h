@@ -9,6 +9,8 @@
 #ifndef HHConstant_h
 #define HHConstant_h
 
+#import "AppDelegate.h"
+
 //竖屏界面宽
 #define HHSCREEN_VERTICAL_WIDTH  MIN([UIScreen mainScreen].bounds.size.width, [UIScreen mainScreen].bounds.size.height)
 //竖屏界面高

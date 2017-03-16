@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  HHTabBarController.h
 //  HHScreenDirectionDemo
 //
 //  Created by zero on 2017/3/16.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface HHTabBarController : UITabBarController
 
 @end
-

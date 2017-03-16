@@ -8,26 +8,34 @@
 
 /* Begin PBXBuildFile section */
 		DA97F5C91E7A5B830049CA3F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DA97F5C81E7A5B830049CA3F /* main.m */; };
-		DA97F5CC1E7A5B830049CA3F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DA97F5CB1E7A5B830049CA3F /* AppDelegate.m */; };
-		DA97F5CF1E7A5B830049CA3F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA97F5CE1E7A5B830049CA3F /* ViewController.m */; };
-		DA97F5D21E7A5B830049CA3F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA97F5D01E7A5B830049CA3F /* Main.storyboard */; };
 		DA97F5D41E7A5B830049CA3F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA97F5D31E7A5B830049CA3F /* Assets.xcassets */; };
 		DA97F5D71E7A5B830049CA3F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA97F5D51E7A5B830049CA3F /* LaunchScreen.storyboard */; };
+		DA97F5ED1E7A60D70049CA3F /* HHTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA97F5EC1E7A60D70049CA3F /* HHTabBarController.m */; };
+		DA97F5F01E7A60DF0049CA3F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DA97F5EF1E7A60DF0049CA3F /* AppDelegate.m */; };
+		DA97F5F41E7A61BA0049CA3F /* HHHomeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = DA97F5F21E7A61BA0049CA3F /* HHHomeVC.m */; };
+		DA97F5F51E7A61BA0049CA3F /* HHHomeVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = DA97F5F31E7A61BA0049CA3F /* HHHomeVC.xib */; };
+		DA97F5F91E7A61E30049CA3F /* HHPersonalVC.m in Sources */ = {isa = PBXBuildFile; fileRef = DA97F5F71E7A61E30049CA3F /* HHPersonalVC.m */; };
+		DA97F5FA1E7A61E30049CA3F /* HHPersonalVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = DA97F5F81E7A61E30049CA3F /* HHPersonalVC.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		DA97F5C41E7A5B830049CA3F /* HHScreenDirectionDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HHScreenDirectionDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA97F5C81E7A5B830049CA3F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		DA97F5CA1E7A5B830049CA3F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		DA97F5CB1E7A5B830049CA3F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		DA97F5CD1E7A5B830049CA3F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		DA97F5CE1E7A5B830049CA3F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		DA97F5D11E7A5B830049CA3F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DA97F5D31E7A5B830049CA3F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DA97F5D61E7A5B830049CA3F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DA97F5D81E7A5B830049CA3F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DA97F5DE1E7A5BD50049CA3F /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		DA97F5E01E7A5CBE0049CA3F /* HHConstant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HHConstant.h; sourceTree = "<group>"; };
+		DA97F5EB1E7A60D70049CA3F /* HHTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HHTabBarController.h; sourceTree = "<group>"; };
+		DA97F5EC1E7A60D70049CA3F /* HHTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HHTabBarController.m; sourceTree = "<group>"; };
+		DA97F5EE1E7A60DF0049CA3F /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DA97F5EF1E7A60DF0049CA3F /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DA97F5F11E7A61BA0049CA3F /* HHHomeVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HHHomeVC.h; sourceTree = "<group>"; };
+		DA97F5F21E7A61BA0049CA3F /* HHHomeVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HHHomeVC.m; sourceTree = "<group>"; };
+		DA97F5F31E7A61BA0049CA3F /* HHHomeVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HHHomeVC.xib; sourceTree = "<group>"; };
+		DA97F5F61E7A61E30049CA3F /* HHPersonalVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HHPersonalVC.h; sourceTree = "<group>"; };
+		DA97F5F71E7A61E30049CA3F /* HHPersonalVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HHPersonalVC.m; sourceTree = "<group>"; };
+		DA97F5F81E7A61E30049CA3F /* HHPersonalVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HHPersonalVC.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,11 +68,7 @@
 		DA97F5C61E7A5B830049CA3F /* HHScreenDirectionDemo */ = {
 			isa = PBXGroup;
 			children = (
-				DA97F5CA1E7A5B830049CA3F /* AppDelegate.h */,
-				DA97F5CB1E7A5B830049CA3F /* AppDelegate.m */,
-				DA97F5CD1E7A5B830049CA3F /* ViewController.h */,
-				DA97F5CE1E7A5B830049CA3F /* ViewController.m */,
-				DA97F5D01E7A5B830049CA3F /* Main.storyboard */,
+				DA97F5E41E7A60960049CA3F /* Classes */,
 				DA97F5D31E7A5B830049CA3F /* Assets.xcassets */,
 				DA97F5D51E7A5B830049CA3F /* LaunchScreen.storyboard */,
 				DA97F5D81E7A5B830049CA3F /* Info.plist */,
@@ -81,6 +85,71 @@
 				DA97F5E01E7A5CBE0049CA3F /* HHConstant.h */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DA97F5E41E7A60960049CA3F /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				DA97F5EE1E7A60DF0049CA3F /* AppDelegate.h */,
+				DA97F5EF1E7A60DF0049CA3F /* AppDelegate.m */,
+				DA97F5E51E7A60960049CA3F /* Home */,
+				DA97F5E71E7A60960049CA3F /* Main */,
+				DA97F5E91E7A60960049CA3F /* Personal */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		DA97F5E51E7A60960049CA3F /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				DA97F5E61E7A60960049CA3F /* Controller */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		DA97F5E61E7A60960049CA3F /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				DA97F5F11E7A61BA0049CA3F /* HHHomeVC.h */,
+				DA97F5F21E7A61BA0049CA3F /* HHHomeVC.m */,
+				DA97F5F31E7A61BA0049CA3F /* HHHomeVC.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		DA97F5E71E7A60960049CA3F /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				DA97F5E81E7A60960049CA3F /* Controller */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		DA97F5E81E7A60960049CA3F /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				DA97F5EB1E7A60D70049CA3F /* HHTabBarController.h */,
+				DA97F5EC1E7A60D70049CA3F /* HHTabBarController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		DA97F5E91E7A60960049CA3F /* Personal */ = {
+			isa = PBXGroup;
+			children = (
+				DA97F5EA1E7A60960049CA3F /* Controller */,
+			);
+			path = Personal;
+			sourceTree = "<group>";
+		};
+		DA97F5EA1E7A60960049CA3F /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				DA97F5F61E7A61E30049CA3F /* HHPersonalVC.h */,
+				DA97F5F71E7A61E30049CA3F /* HHPersonalVC.m */,
+				DA97F5F81E7A61E30049CA3F /* HHPersonalVC.xib */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -143,8 +212,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				DA97F5D71E7A5B830049CA3F /* LaunchScreen.storyboard in Resources */,
+				DA97F5F51E7A61BA0049CA3F /* HHHomeVC.xib in Resources */,
+				DA97F5FA1E7A61E30049CA3F /* HHPersonalVC.xib in Resources */,
 				DA97F5D41E7A5B830049CA3F /* Assets.xcassets in Resources */,
-				DA97F5D21E7A5B830049CA3F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -155,23 +225,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DA97F5CF1E7A5B830049CA3F /* ViewController.m in Sources */,
-				DA97F5CC1E7A5B830049CA3F /* AppDelegate.m in Sources */,
+				DA97F5F91E7A61E30049CA3F /* HHPersonalVC.m in Sources */,
+				DA97F5F01E7A60DF0049CA3F /* AppDelegate.m in Sources */,
 				DA97F5C91E7A5B830049CA3F /* main.m in Sources */,
+				DA97F5ED1E7A60D70049CA3F /* HHTabBarController.m in Sources */,
+				DA97F5F41E7A61BA0049CA3F /* HHHomeVC.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		DA97F5D01E7A5B830049CA3F /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				DA97F5D11E7A5B830049CA3F /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		DA97F5D51E7A5B830049CA3F /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -322,6 +386,7 @@
 				DA97F5DD1E7A5B830049CA3F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

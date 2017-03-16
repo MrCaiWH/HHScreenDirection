@@ -18,7 +18,25 @@
         <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
             <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="l8p-NK-lhq">
+                    <rect key="frame" x="154" y="319" width="66" height="30"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="66" id="36Y-2D-cFn"/>
+                        <constraint firstAttribute="height" constant="30" id="PEg-h3-ZWu"/>
+                    </constraints>
+                    <state key="normal" title="横屏"/>
+                    <connections>
+                        <action selector="landscapeClick:" destination="-1" eventType="touchUpInside" id="fDm-ql-RPc"/>
+                    </connections>
+                </button>
+            </subviews>
             <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="l8p-NK-lhq" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="hhR-a1-ko2"/>
+                <constraint firstItem="l8p-NK-lhq" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" id="yTZ-Hg-tmi"/>
+            </constraints>
+            <point key="canvasLocation" x="24.5" y="51.5"/>
         </view>
     </objects>
 </document>

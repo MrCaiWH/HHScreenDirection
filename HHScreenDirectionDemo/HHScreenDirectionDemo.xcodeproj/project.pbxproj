@@ -16,6 +16,9 @@
 		DA97F5F51E7A61BA0049CA3F /* HHHomeVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = DA97F5F31E7A61BA0049CA3F /* HHHomeVC.xib */; };
 		DA97F5F91E7A61E30049CA3F /* HHPersonalVC.m in Sources */ = {isa = PBXBuildFile; fileRef = DA97F5F71E7A61E30049CA3F /* HHPersonalVC.m */; };
 		DA97F5FA1E7A61E30049CA3F /* HHPersonalVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = DA97F5F81E7A61E30049CA3F /* HHPersonalVC.xib */; };
+		DA97F5FE1E7A67E10049CA3F /* HHFirstVC.m in Sources */ = {isa = PBXBuildFile; fileRef = DA97F5FC1E7A67E10049CA3F /* HHFirstVC.m */; };
+		DA97F5FF1E7A67E10049CA3F /* HHFirstVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = DA97F5FD1E7A67E10049CA3F /* HHFirstVC.xib */; };
+		DA97F6021E7A691B0049CA3F /* HHNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA97F6011E7A691B0049CA3F /* HHNavigationController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +39,11 @@
 		DA97F5F61E7A61E30049CA3F /* HHPersonalVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HHPersonalVC.h; sourceTree = "<group>"; };
 		DA97F5F71E7A61E30049CA3F /* HHPersonalVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HHPersonalVC.m; sourceTree = "<group>"; };
 		DA97F5F81E7A61E30049CA3F /* HHPersonalVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HHPersonalVC.xib; sourceTree = "<group>"; };
+		DA97F5FB1E7A67E10049CA3F /* HHFirstVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HHFirstVC.h; sourceTree = "<group>"; };
+		DA97F5FC1E7A67E10049CA3F /* HHFirstVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HHFirstVC.m; sourceTree = "<group>"; };
+		DA97F5FD1E7A67E10049CA3F /* HHFirstVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HHFirstVC.xib; sourceTree = "<group>"; };
+		DA97F6001E7A691B0049CA3F /* HHNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HHNavigationController.h; sourceTree = "<group>"; };
+		DA97F6011E7A691B0049CA3F /* HHNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HHNavigationController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,9 +77,6 @@
 			isa = PBXGroup;
 			children = (
 				DA97F5E41E7A60960049CA3F /* Classes */,
-				DA97F5D31E7A5B830049CA3F /* Assets.xcassets */,
-				DA97F5D51E7A5B830049CA3F /* LaunchScreen.storyboard */,
-				DA97F5D81E7A5B830049CA3F /* Info.plist */,
 				DA97F5C71E7A5B830049CA3F /* Supporting Files */,
 			);
 			path = HHScreenDirectionDemo;
@@ -80,6 +85,9 @@
 		DA97F5C71E7A5B830049CA3F /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				DA97F5D31E7A5B830049CA3F /* Assets.xcassets */,
+				DA97F5D51E7A5B830049CA3F /* LaunchScreen.storyboard */,
+				DA97F5D81E7A5B830049CA3F /* Info.plist */,
 				DA97F5C81E7A5B830049CA3F /* main.m */,
 				DA97F5DE1E7A5BD50049CA3F /* PrefixHeader.pch */,
 				DA97F5E01E7A5CBE0049CA3F /* HHConstant.h */,
@@ -113,6 +121,9 @@
 				DA97F5F11E7A61BA0049CA3F /* HHHomeVC.h */,
 				DA97F5F21E7A61BA0049CA3F /* HHHomeVC.m */,
 				DA97F5F31E7A61BA0049CA3F /* HHHomeVC.xib */,
+				DA97F5FB1E7A67E10049CA3F /* HHFirstVC.h */,
+				DA97F5FC1E7A67E10049CA3F /* HHFirstVC.m */,
+				DA97F5FD1E7A67E10049CA3F /* HHFirstVC.xib */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -130,6 +141,8 @@
 			children = (
 				DA97F5EB1E7A60D70049CA3F /* HHTabBarController.h */,
 				DA97F5EC1E7A60D70049CA3F /* HHTabBarController.m */,
+				DA97F6001E7A691B0049CA3F /* HHNavigationController.h */,
+				DA97F6011E7A691B0049CA3F /* HHNavigationController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -215,6 +228,7 @@
 				DA97F5F51E7A61BA0049CA3F /* HHHomeVC.xib in Resources */,
 				DA97F5FA1E7A61E30049CA3F /* HHPersonalVC.xib in Resources */,
 				DA97F5D41E7A5B830049CA3F /* Assets.xcassets in Resources */,
+				DA97F5FF1E7A67E10049CA3F /* HHFirstVC.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -230,6 +244,8 @@
 				DA97F5C91E7A5B830049CA3F /* main.m in Sources */,
 				DA97F5ED1E7A60D70049CA3F /* HHTabBarController.m in Sources */,
 				DA97F5F41E7A61BA0049CA3F /* HHHomeVC.m in Sources */,
+				DA97F6021E7A691B0049CA3F /* HHNavigationController.m in Sources */,
+				DA97F5FE1E7A67E10049CA3F /* HHFirstVC.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

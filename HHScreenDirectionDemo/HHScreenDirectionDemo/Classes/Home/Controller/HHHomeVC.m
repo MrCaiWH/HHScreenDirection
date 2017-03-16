@@ -7,6 +7,7 @@
 //
 
 #import "HHHomeVC.h"
+#import "HHFirstVC.h"
 
 @interface HHHomeVC ()
 
@@ -20,4 +21,8 @@
     self.title = @"Bookmarks";
 }
 
+- (IBAction)landscapeClick:(UIButton *)sender {
+    HHFirstVC *firstVc = [[HHFirstVC alloc] init];
+    [self.navigationController pushViewController:firstVc animated:YES];
+}
 @end

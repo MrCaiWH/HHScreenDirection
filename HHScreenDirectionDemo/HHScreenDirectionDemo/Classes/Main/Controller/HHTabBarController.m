@@ -9,6 +9,7 @@
 #import "HHTabBarController.h"
 #import "HHHomeVC.h"
 #import "HHPersonalVC.h"
+#import "HHNavigationController.h"
 
 @interface HHTabBarController ()
 
@@ -27,7 +28,7 @@
     // 1.新建第一页视图控制器实例
     HHHomeVC *firstVC = [[HHHomeVC alloc] init];
     // 2.新建第一页导航控制器实例，把firstVC加入进去
-    UINavigationController *firstNC = [[UINavigationController alloc] initWithRootViewController:firstVC];
+    HHNavigationController *firstNC = [[HHNavigationController alloc] initWithRootViewController:firstVC];
     // 3.新建第一页的标签栏图标
     UITabBarItem *firstTabBarItem = [[UITabBarItem alloc] initWithTabBarSystemItem:UITabBarSystemItemBookmarks tag:0];
     // 4.图标加入到第一页的导航控制器上
@@ -35,7 +36,7 @@
     
     // 第二页
     HHPersonalVC *secondVC = [[HHPersonalVC alloc] init];
-    UINavigationController *secondNC = [[UINavigationController alloc] initWithRootViewController:secondVC];
+    HHNavigationController *secondNC = [[HHNavigationController alloc] initWithRootViewController:secondVC];
     UITabBarItem *secondTabBarItem = [[UITabBarItem alloc] initWithTabBarSystemItem:UITabBarSystemItemContacts tag:1];
     secondNC.tabBarItem = secondTabBarItem;
     

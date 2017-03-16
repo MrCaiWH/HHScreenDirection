@@ -8,6 +8,7 @@
 
 #import "HHHomeVC.h"
 #import "HHFirstVC.h"
+#import "HHNavigationController.h"
 
 @interface HHHomeVC ()
 
@@ -22,11 +23,10 @@
 }
 
 - (IBAction)landscapeClick:(UIButton *)sender {
-    
-    AppDelegate *appDelegate=(AppDelegate *)[[UIApplication sharedApplication] delegate];
-    [appDelegate forceOrientationLandscape];
-    
     HHFirstVC *firstVc = [[HHFirstVC alloc] init];
-    [self.navigationController pushViewController:firstVc animated:YES];
+    HHNavigationController *nav = [[HHNavigationController alloc] initWithRootViewController:firstVc];
+    [self.navigationController presentViewController:nav animated:YES completion:^{
+        
+    }];
 }
 @end

@@ -12,10 +12,5 @@
 
 @property (strong, nonatomic) UIWindow *window;
 
-#pragma mark - 强制横屏
--(void)forceOrientationLandscape;
-
-#pragma mark - 强制竖屏
--(void)forceOrientationPortrait;
 @end
 

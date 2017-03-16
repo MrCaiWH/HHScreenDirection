@@ -20,4 +20,16 @@
     self.navigationController.navigationBar.hidden = YES;
 }
 
+//支持的方向
+-(UIInterfaceOrientationMask)supportedInterfaceOrientations
+{
+    return UIInterfaceOrientationMaskLandscapeRight;
+}
+
+//是否可以旋转
+-(BOOL)shouldAutorotate
+{
+    return YES;
+}
+
 @end

@@ -19,10 +19,6 @@
 		DA97F5FE1E7A67E10049CA3F /* HHFirstVC.m in Sources */ = {isa = PBXBuildFile; fileRef = DA97F5FC1E7A67E10049CA3F /* HHFirstVC.m */; };
 		DA97F5FF1E7A67E10049CA3F /* HHFirstVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = DA97F5FD1E7A67E10049CA3F /* HHFirstVC.xib */; };
 		DA97F6021E7A691B0049CA3F /* HHNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA97F6011E7A691B0049CA3F /* HHNavigationController.m */; };
-		DA97F61B1E7A77CA0049CA3F /* UIAlertController+AutoRotate.m in Sources */ = {isa = PBXBuildFile; fileRef = DA97F60C1E7A77CA0049CA3F /* UIAlertController+AutoRotate.m */; };
-		DA97F61C1E7A77CA0049CA3F /* UINavigationController+AutoRotate.m in Sources */ = {isa = PBXBuildFile; fileRef = DA97F60E1E7A77CA0049CA3F /* UINavigationController+AutoRotate.m */; };
-		DA97F61D1E7A77CA0049CA3F /* UITabBarController+AutoRotate.m in Sources */ = {isa = PBXBuildFile; fileRef = DA97F6101E7A77CA0049CA3F /* UITabBarController+AutoRotate.m */; };
-		DA97F61F1E7A77CA0049CA3F /* UIViewController+AutoRotate.m in Sources */ = {isa = PBXBuildFile; fileRef = DA97F6141E7A77CA0049CA3F /* UIViewController+AutoRotate.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -48,14 +44,6 @@
 		DA97F5FD1E7A67E10049CA3F /* HHFirstVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HHFirstVC.xib; sourceTree = "<group>"; };
 		DA97F6001E7A691B0049CA3F /* HHNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HHNavigationController.h; sourceTree = "<group>"; };
 		DA97F6011E7A691B0049CA3F /* HHNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HHNavigationController.m; sourceTree = "<group>"; };
-		DA97F60B1E7A77CA0049CA3F /* UIAlertController+AutoRotate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIAlertController+AutoRotate.h"; sourceTree = "<group>"; };
-		DA97F60C1E7A77CA0049CA3F /* UIAlertController+AutoRotate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIAlertController+AutoRotate.m"; sourceTree = "<group>"; };
-		DA97F60D1E7A77CA0049CA3F /* UINavigationController+AutoRotate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+AutoRotate.h"; sourceTree = "<group>"; };
-		DA97F60E1E7A77CA0049CA3F /* UINavigationController+AutoRotate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+AutoRotate.m"; sourceTree = "<group>"; };
-		DA97F60F1E7A77CA0049CA3F /* UITabBarController+AutoRotate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITabBarController+AutoRotate.h"; sourceTree = "<group>"; };
-		DA97F6101E7A77CA0049CA3F /* UITabBarController+AutoRotate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITabBarController+AutoRotate.m"; sourceTree = "<group>"; };
-		DA97F6131E7A77CA0049CA3F /* UIViewController+AutoRotate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+AutoRotate.h"; sourceTree = "<group>"; };
-		DA97F6141E7A77CA0049CA3F /* UIViewController+AutoRotate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+AutoRotate.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,7 +100,6 @@
 			children = (
 				DA97F5EE1E7A60DF0049CA3F /* AppDelegate.h */,
 				DA97F5EF1E7A60DF0049CA3F /* AppDelegate.m */,
-				DA97F6061E7A77CA0049CA3F /* AutoRotateCategory */,
 				DA97F5E51E7A60960049CA3F /* Home */,
 				DA97F5E71E7A60960049CA3F /* Main */,
 				DA97F5E91E7A60960049CA3F /* Personal */,
@@ -176,21 +163,6 @@
 				DA97F5F81E7A61E30049CA3F /* HHPersonalVC.xib */,
 			);
 			path = Controller;
-			sourceTree = "<group>";
-		};
-		DA97F6061E7A77CA0049CA3F /* AutoRotateCategory */ = {
-			isa = PBXGroup;
-			children = (
-				DA97F60B1E7A77CA0049CA3F /* UIAlertController+AutoRotate.h */,
-				DA97F60C1E7A77CA0049CA3F /* UIAlertController+AutoRotate.m */,
-				DA97F60D1E7A77CA0049CA3F /* UINavigationController+AutoRotate.h */,
-				DA97F60E1E7A77CA0049CA3F /* UINavigationController+AutoRotate.m */,
-				DA97F60F1E7A77CA0049CA3F /* UITabBarController+AutoRotate.h */,
-				DA97F6101E7A77CA0049CA3F /* UITabBarController+AutoRotate.m */,
-				DA97F6131E7A77CA0049CA3F /* UIViewController+AutoRotate.h */,
-				DA97F6141E7A77CA0049CA3F /* UIViewController+AutoRotate.m */,
-			);
-			path = AutoRotateCategory;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -267,17 +239,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DA97F61F1E7A77CA0049CA3F /* UIViewController+AutoRotate.m in Sources */,
 				DA97F5F91E7A61E30049CA3F /* HHPersonalVC.m in Sources */,
 				DA97F5F01E7A60DF0049CA3F /* AppDelegate.m in Sources */,
 				DA97F5C91E7A5B830049CA3F /* main.m in Sources */,
-				DA97F61D1E7A77CA0049CA3F /* UITabBarController+AutoRotate.m in Sources */,
 				DA97F5ED1E7A60D70049CA3F /* HHTabBarController.m in Sources */,
 				DA97F5F41E7A61BA0049CA3F /* HHHomeVC.m in Sources */,
 				DA97F6021E7A691B0049CA3F /* HHNavigationController.m in Sources */,
-				DA97F61B1E7A77CA0049CA3F /* UIAlertController+AutoRotate.m in Sources */,
 				DA97F5FE1E7A67E10049CA3F /* HHFirstVC.m in Sources */,
-				DA97F61C1E7A77CA0049CA3F /* UINavigationController+AutoRotate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

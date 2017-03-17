@@ -12,5 +12,8 @@
 
 @property (strong, nonatomic) UIWindow *window;
 
+@property(nonatomic,assign) BOOL isForceLandscape;     //是否强制横屏
+@property(nonatomic,assign) BOOL isForcePortrait;     //是否强制竖屏
+
 @end
 

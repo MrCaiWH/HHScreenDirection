@@ -29,6 +29,11 @@
     [self forceOrientationLandscape:YES];
 }
 
+- (IBAction)backClick:(UIButton *)sender {
+    [self forceOrientationLandscape:YES];
+    [self.navigationController popViewControllerAnimated:YES];
+}
+
 #pragma mark - 强制横屏 竖屏
 -(void)forceOrientationLandscape:(BOOL)boolean{
     

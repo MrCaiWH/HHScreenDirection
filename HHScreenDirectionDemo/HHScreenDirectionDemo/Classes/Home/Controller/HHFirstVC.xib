@@ -19,18 +19,22 @@
             <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="U81-zg-i6G">
-                    <rect key="frame" x="163" y="318" width="51" height="31"/>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4Ue-RM-dC8">
+                    <rect key="frame" x="164.5" y="151" width="46" height="30"/>
                     <constraints>
-                        <constraint firstAttribute="width" constant="49" id="kiL-yh-cDD"/>
-                        <constraint firstAttribute="height" constant="31" id="y4Q-ef-30f"/>
+                        <constraint firstAttribute="height" constant="30" id="PXd-co-Tbj"/>
+                        <constraint firstAttribute="width" constant="46" id="sgK-oR-fhQ"/>
                     </constraints>
-                </switch>
+                    <state key="normal" title="返回"/>
+                    <connections>
+                        <action selector="backClick:" destination="-1" eventType="touchUpInside" id="BVg-ah-ZNi"/>
+                    </connections>
+                </button>
             </subviews>
             <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
             <constraints>
-                <constraint firstItem="U81-zg-i6G" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="WUS-NA-SEr"/>
-                <constraint firstItem="U81-zg-i6G" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" id="toE-NE-O8E"/>
+                <constraint firstItem="4Ue-RM-dC8" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="jd7-F0-a9g"/>
+                <constraint firstItem="4Ue-RM-dC8" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="151" id="paJ-oM-xY6"/>
             </constraints>
         </view>
     </objects>

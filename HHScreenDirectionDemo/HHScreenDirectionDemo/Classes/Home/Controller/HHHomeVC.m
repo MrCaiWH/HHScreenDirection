@@ -20,15 +20,12 @@
     [super viewDidLoad];
     // 设置title
     self.title = @"Bookmarks";
+    
+    self.view.backgroundColor = [UIColor redColor];
 }
 
 - (IBAction)landscapeClick:(UIButton *)sender {
     HHFirstVC *firstVc = [[HHFirstVC alloc] init];
-//    HHNavigationController *nav = [[HHNavigationController alloc] initWithRootViewController:firstVc];
-//    [self.navigationController presentViewController:nav animated:YES completion:^{
-//        
-//    }];
-    
     [self.navigationController pushViewController:firstVc animated:YES];
 }
 @end
